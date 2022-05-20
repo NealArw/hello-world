@@ -2,7 +2,7 @@ services:
   hello-world:
     build: 
       context: https://github.com/AnnaPochepina/hello-world-1
-      dockerfile: /Dockerfile1112
+      dockerfile: /Dockerfile11
     environment:
       TEST1: test11
       
