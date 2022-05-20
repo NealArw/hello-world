@@ -1,8 +1,8 @@
 services:
   hello-world:
     build: 
-      context: https://github.com/NealArw/hello-world-12323333
-      dockerfile: /Dockerfile11
+      context: https://github.com/NealArw/hello-world-1
+      dockerfile: /Dockerfile
     environment:
       TEST1: test11
       
