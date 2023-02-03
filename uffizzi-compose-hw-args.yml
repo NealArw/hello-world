@@ -2,7 +2,7 @@ services:
   hello-world:
     build:
       context: https://github.com/NealArw/hello-world-1
-      dockerfile: /Dockerfile.args
+      dockerfile: Dockerfile.args
       args:
         - IMAGES_PATH=images
         - TEST_ARG=Hello from compose
