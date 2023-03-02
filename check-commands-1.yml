@@ -3,7 +3,7 @@ services:
     image: redis:latest
 
   postgres:
-    image: postgres:9.6
+    image: postgres:12
     command: postgres -c jit=off
     environment:
       POSTGRES_USER: postgres
