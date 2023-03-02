@@ -4,7 +4,7 @@ services:
 
   postgres:
     image: postgres:12
-    command: postgres -c jit=off
+    command: ["postgres", "-c", "jit=off"]
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
