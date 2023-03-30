@@ -14,7 +14,7 @@ services:
     configs:
       - source: my_config_2
         target: /etc/nginx/conf.d/default.conf
-    command: command: sh -c './scripts/clone_db.sh && ./scripts/run_server_via_doppler.sh'
+    command: sh -c './scripts/clone_db.sh && ./scripts/run_server_via_doppler.sh'
 
   worker:
     image: uffizzitest/worker
