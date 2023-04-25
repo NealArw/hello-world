@@ -7,6 +7,8 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
+    secrets:
+      - test
 
   nginx:
     image: nginx:latest
@@ -39,3 +41,8 @@ x-uffizzi-continuous_preview:
 configs:
   my_config_2:
     file: ./config2/vote2.conf
+    
+secrets:
+  test:
+    external: true
+    name: "TEST"
