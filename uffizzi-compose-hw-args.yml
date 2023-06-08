@@ -10,9 +10,9 @@ services:
 x-uffizzi:
   ingress:
     service: hello-world
-    port: 800
+    port: 80
   continuous_preview:
     share_to_github: true
-    delete_preview_after: 48h
+    delete_preview_after: 1h
     delete_preview_when_pull_request_is_closed: true
     deploy_preview_when_pull_request_is_opened: true
