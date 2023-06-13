@@ -1,6 +1,6 @@
 services:
   web:
-    image: docker.cloudsmith.io/dbp-test/webhook-test-app
+    image: docker.cloudsmith.io/dbp-test/webhook-test-app/webhooks-test-app
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
